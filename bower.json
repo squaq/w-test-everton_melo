@@ -1,0 +1,16 @@
+{
+  "name": "whitespectre-test",
+  "authors": [
+    "squaq <evertonsquaq@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.7"
+  }
+}

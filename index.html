@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Whitspectre Test</title>
+</head>
+<body>
+  
+    <div class="container">
+        <div class="row">
+            <!--Previous button-->
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <button class="btn btn-default pull-right" id="prev" onclick="prev()">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </button>
+            </div>    
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                <div class="row" id="gall">
+                <!-- Carousel Here -->
+                </div>
+            </div>
+            <!--Next button-->
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <button class="btn btn-default pull-left" id="next" onclick="next()">
+                    <span class="glyphicon glyphicon-chevron-right"></span>   
+                </button>
+            </div> 
+      </div>    
+  </div>
+  
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+   <script src="bower_components/underscore/underscore-min.js"></script>
+   <script src="bower_components/backbone/backbone-min.js"></script>
+   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+   
+   <script src="script.js"></script>
+</body>
+</html>
